@@ -8,10 +8,12 @@ import {
   Tech,
   Projects,
 } from './components';
+import { HelmetMeta } from './HelmetMeta';
 
 const App = () => {
   return (
     <BrowserRouter>
+    <HelmetMeta/>
       <div className="relative z-0">
         <div>
           <Navbar />

@@ -1,0 +1,11 @@
+{
+  "basics": {
+    "name": "Serkan Karışan",
+    "description": "Merhaba, Ben Serkan! Full-Stack yazılım geliştiriciyim. Her zaman yeni ve öğretici şeyler için hazırım! Hem ön yüzü hem de arka yüzüyle harika çalışan uygulamalar oluşturmanızda yardımcı olmak için buradayım.",
+    "keywords": "personal,website,portfolio,fullstack,developer,template,kit,webdev,web,backend,frontend,api,react,nodejs,express,mongodb,postgresql,github,linkedin,google,gitlab,docker,typescript,material,design,ui,webapp,markdown,rest,graphql,devops",
+    "location": {
+      "city": "İstanbul",
+      "country": "Türkiye"
+    }
+  }
+}
