@@ -1,32 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Arenq';
-  src: url('./fonts/arenq.otf');
+  font-family: "Arenq";
+  src: url("./fonts/arenq.otf");
 }
 
 @font-face {
-  font-family: 'Mova';
-  src: url('./fonts/mova.otf');
+  font-family: "Beckman";
+  src: url("./fonts/beckman.otf");
 }
 
 @font-face {
-  font-family: 'Beckman';
-  src: url('./fonts/beckman.otf');
+  font-family: "Overcame Bold";
+  src: url("./fonts/overcame-bold.woff");
 }
 
 @font-face {
-  font-family: 'Overcame Bold';
-  src: url('./fonts/overcame-bold.woff');
-}
-
-@font-face {
-  font-family: 'Overcame Outline';
-  src: url('./fonts/overcame-outline.woff');
+  font-family: "Overcame Outline";
+  src: url("./fonts/overcame-outline.woff");
 }
 
 * {
@@ -38,7 +33,7 @@
 }
 
 .nav-links::after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 3px;
@@ -68,7 +63,7 @@
 }
 
 .hero-heading {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
