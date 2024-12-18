@@ -33,6 +33,10 @@ export const navLinks = [
     title: "Hakkımda",
   },
   {
+    id: "tech",
+    title: "Teknolojiler",
+  },
+  {
     id: "projects",
     title: "Projelerim",
   },

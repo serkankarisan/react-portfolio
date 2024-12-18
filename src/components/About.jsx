@@ -18,7 +18,7 @@ const ServiceCard = ({ index, title, icon }) => {
         }}
         className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
         <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-        <h3 className="text-taupe text-[18px] font-bold text-center">
+        <h3 className="text-french text-[18px] font-bold text-center">
           {title}
         </h3>
       </div>
@@ -36,7 +36,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        className="mt-4 text-french text-[18px] leading-[30px]">
         Deneyimli bir Yazılım Geliştirici olarak, C#, .NET ve JavaScript gibi çeşitli teknolojilerde güçlü teknik becerilere ve uygulama deneyimine sahibim. Özellikle endüstriyel otomasyon, IoT platformları ve web tabanlı uygulama geliştirme konularında uzmanlaştım. Projelerimde hem Back-End hem de Front-End geliştirme süreçlerinde aktif rol alarak kullanıcı dostu, performanslı ve sürdürülebilir yazılım çözümleri sunmayı hedefliyorum. Modern yazılım geliştirme prensiplerine uygun olarak temiz, okunabilir ve uzun vadede kolayca sürdürülebilir kodlar yazmaya özen gösteriyorum. Yeni teknolojilere hızlı bir şekilde uyum sağlama yeteneğim ve yenilikçi yaklaşımım sayesinde projelerde yüksek verimlilik ve kalite standartlarını yakalamayı amaçlıyorum. Yazılım geliştirme sürecinde sürekli öğrenme ve kendimi geliştirme prensibiyle hareket ederek, iş süreçlerine değer katan sonuçlar üretmeye odaklanıyorum.
       </motion.p>
 

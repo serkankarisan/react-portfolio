@@ -214,6 +214,19 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+#logo-img {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  -webkit-box-shadow: 2px 3px 0px 0px #a5a5a5;
+  -moz-box-shadow: 2px 3px 0px 0px #a5a5a5;
+  box-shadow: 2px 3px 0px 0px #a5a5a5;
+}
+.logo-text {
+  align-items: center;
+  margin-left: 0.6rem;
+  font-size: 2rem;
+}
 .tech-box {
   width: 250px;
   height: 80px;
@@ -255,4 +268,111 @@
 .tech-box img {
   max-width: none !important;
   width: 4rem;
+}
+.tomorrow-thin {
+  font-family: "Tomorrow", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.tomorrow-extralight {
+  font-family: "Tomorrow", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.tomorrow-light {
+  font-family: "Tomorrow", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tomorrow-regular {
+  font-family: "Tomorrow", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tomorrow-medium {
+  font-family: "Tomorrow", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tomorrow-semibold {
+  font-family: "Tomorrow", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.tomorrow-bold {
+  font-family: "Tomorrow", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tomorrow-extrabold {
+  font-family: "Tomorrow", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.tomorrow-black {
+  font-family: "Tomorrow", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.tomorrow-thin-italic {
+  font-family: "Tomorrow", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.tomorrow-extralight-italic {
+  font-family: "Tomorrow", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.tomorrow-light-italic {
+  font-family: "Tomorrow", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.tomorrow-regular-italic {
+  font-family: "Tomorrow", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tomorrow-medium-italic {
+  font-family: "Tomorrow", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.tomorrow-semibold-italic {
+  font-family: "Tomorrow", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.tomorrow-bold-italic {
+  font-family: "Tomorrow", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.tomorrow-extrabold-italic {
+  font-family: "Tomorrow", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.tomorrow-black-italic {
+  font-family: "Tomorrow", serif;
+  font-weight: 900;
+  font-style: italic;
 }

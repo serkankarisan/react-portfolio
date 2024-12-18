@@ -7,7 +7,7 @@ import { profileImage, bwmap, worldmap } from "../assets";
 const Hero = () => {
   return (
     <>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
+      <div id="hero" className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
           src={bwmap}
           alt="world map"
@@ -38,20 +38,22 @@ const Hero = () => {
 
           <div>
             <h1
-              className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}
+              className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase text-flashWhite`}
             >
               Merhaba, Ben{" "}
               <span
-                className="sm:text-battleGray sm:text-[90px] 
+                className="sm:sm:text-[90px] 
                 text-eerieBlack text-[50px]
-                font-extrabold uppercase"
+                font-extrabold uppercase text-tertiary"
               >
                 Serkan
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+            <p
+              className={`${styles.heroSubText} mt-2 text-eerieBlack text-flashWhite`}
+            >
               Full-Stack
-              <br className="sm:block hidden" />
+              <br />
               Yazılım Geliştiriciyim
             </p>
           </div>
@@ -67,7 +69,7 @@ const Hero = () => {
           className="absolute xs:bottom-10 bottom-32 w-full 
           flex justify-center items-center"
         >
-          <a href="#about">
+          <a className="xs:mr-[2rem] md:mr-[0rem]" href="#about">
             <div
               className="w-[35px] h-[64px] rounded-3xl border-4 
             border-french border-dim flex
