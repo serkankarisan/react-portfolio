@@ -24,7 +24,7 @@ const App = () => {
           <About />
         </div>
 
-        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10 filter grayscale">
+        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
           <Tech />
         </div>
 
