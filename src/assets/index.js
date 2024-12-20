@@ -49,12 +49,8 @@ import dcc from "./company/dcc.png";
 import kelhel from "./company/kelhel.png";
 import microverse from "./company/microverse.png";
 
-import komikult from "./projects/komikult.png";
-import leaderboard from "./projects/leaderboard.png";
-import math from "./projects/math-magicians.png";
-import movie from "./projects/movie-metro.png";
-import nyeusi from "./projects/nyeusi.png";
-import space from "./projects/space-hub.png";
+import batchmaster from "./projects/batchmaster.png";
+import pro4 from "./projects/pro4.jpg";
 
 export {
   bwmap,
@@ -108,10 +104,6 @@ export {
   kelhel,
   microverse,
   //
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  batchmaster,
+  pro4,
 };

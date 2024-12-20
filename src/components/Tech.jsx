@@ -40,7 +40,7 @@ const Tech = () => {
               data-aos="fade-up"
               data-aos-delay={i * animationDelayStep * 1000}
               className={`relative group w-full flex items-center
-                gap-5 p-5 max-w-sm rounded-md border-2 border-slate-200 tech-box ${
+                gap-5 p-5 max-w-sm rounded-md border border-slate-200 tech-box ${
                   isAnimating ? "animating" : ""
                 }`} // Animasyon durumu kontrol ediliyor
               style={{

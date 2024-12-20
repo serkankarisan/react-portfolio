@@ -25,6 +25,9 @@ import {
   devexpress,
   threejs,
   aframe,
+  //
+  pro4,
+  batchmaster,
 } from "../assets";
 
 export const navLinks = [
@@ -83,7 +86,7 @@ const technologies = [
   { name: "SQL Server", icon: sql, index: 7 },
   { name: "Node JS", icon: nodejs, index: 12 },
   { name: "React JS", icon: reactjs, index: 13 },
-  { name: "Redis", icon: redis, index: 8 },
+  { name: "Redis", icon: redis, index: 9 },
   { name: "DevExpress", icon: devexpress, index: 14 },
   { name: "Three.js", icon: threejs, index: 18 },
   { name: "AFrame", icon: aframe, index: 19 },
@@ -126,11 +129,12 @@ const projects = [
       { name: "Entity Framework", color: "green-text-gradient" },
       { name: "SignalR", color: "pink-text-gradient" },
     ],
+    image: pro4,
     repo: "https://github.com/serkankarisan",
   },
   {
     id: "project-2",
-    name: "Batchmaster Beton Santrali SCADA",
+    name: "Batchmaster SCADA",
     description:
       "Beton santrallerinin üretim süreçlerini izlemek ve kontrol etmek için geliştirilen SCADA sistemi.",
     tags: [
@@ -138,6 +142,7 @@ const projects = [
       { name: "OPC UA", color: "green-text-gradient" },
       { name: "SQL Server", color: "pink-text-gradient" },
     ],
+    image: batchmaster,
     repo: "https://github.com/serkankarisan",
   },
 ];

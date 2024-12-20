@@ -27,6 +27,7 @@ export default {
         richBlack: "#2e2e2e", // Koyu siyah
         eerieBlack: "#1f1f1f", // Koyu siyah
         onyx: "#5b5b5b", // Koyu gri
+        darkPrimary: "#004043", // Koyu mavi
       },
       boxShadow: {
         card: "0px 35px 120px -15px #1f1f1f",
