@@ -59,7 +59,6 @@ export default {
         grayscale: "grayscale(1)", // Özel bir `grayscale` filtresi ekleyin
       },
       fontFamily: {
-        arenq: ["Arenq"],
         beckman: ["Beckman"],
         overcameBold: ["Overcame Bold"],
         overcameOutline: ["Overcame Outline"],

@@ -57,6 +57,8 @@ import resumeLink from "./personal/serkankarisan_full_stack_developer.pdf";
 import gmail from "./icons/gmail.svg";
 import outlook from "./icons/outlook.svg";
 
+import arrowUp from "./icons/arrow-up.svg";
+
 export {
   bwmap,
   istanbul,
@@ -116,4 +118,6 @@ export {
   //
   gmail,
   outlook,
+  //
+  arrowUp,
 };

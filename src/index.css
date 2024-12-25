@@ -5,11 +5,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Arenq";
-  src: url("./fonts/arenq.otf");
-}
-
-@font-face {
   font-family: "Beckman";
   src: url("./fonts/beckman.otf");
 }
@@ -264,4 +259,22 @@
 .profile-hero {
   scale: 1.5;
   opacity: 0.8;
+}
+.vertical-timeline-element {
+  margin:0 0 3em 0 !important;
+}
+.scroll-top-button{
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #004043;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  z-index: 1000;
+  -webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.75);
 }
