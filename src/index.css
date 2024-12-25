@@ -198,12 +198,12 @@
   }
 }
 #logo-img {
-  background-color: white;
+  /* background-color: white;
   border-radius: 2rem;
   padding: 0.5rem;
   -webkit-box-shadow: 2px 3px 0px 0px #a5a5a5;
   -moz-box-shadow: 2px 3px 0px 0px #a5a5a5;
-  box-shadow: 2px 3px 0px 0px #a5a5a5;
+  box-shadow: 2px 3px 0px 0px #a5a5a5; */
 }
 .logo-text {
   align-items: center;
@@ -261,9 +261,9 @@
   opacity: 0.8;
 }
 .vertical-timeline-element {
-  margin:0 0 3em 0 !important;
+  margin: 0 0 3em 0 !important;
 }
-.scroll-top-button{
+.scroll-top-button {
   position: fixed;
   bottom: 25px;
   right: 25px;
@@ -277,4 +277,11 @@
   -webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.75);
+}
+.mobile-menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding:1rem;
 }

@@ -83,48 +83,62 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <div className="lg:hidden flex flex-1 w-screen justify-end items-center">
-          {toggle ? (
-            // Menü açıkken
-            <div
-              className={`fixed top-0 left-0 w-full h-full bg-black-200 p-6 z-20 transition-transform duration-500 ease-in-out transform ${
-                toggle ? "translate-x-0" : "-translate-x-full"
-              }`}
-            >
-              <div className="flex justify-end">
+          <div
+            className={`opacity-[0.85] fixed top-0 right-0 w-full h-full z-20 bg-eerieBlack transition-all duration-200 ease-in-out transform ${
+              toggle ? "translate-x-0 scale-100" : "translate-x-full scale-0"
+            }`}
+            style={{
+              transformOrigin: "right", // Sağdan büyüme
+            }}
+          >
+            <div className="mobile-menu-header h-[64px] sm:h-[105px] sm:px-[4rem]">
+              <div className="flex w-[100%] items-center">
                 <img
-                  src={close}
-                  alt="close"
-                  className="w-[22px] h-[22px] object-contain cursor-pointer"
-                  onClick={() => setToggle(!toggle)}
+                  src={logo}
+                  alt="logo"
+                  className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
                 />
+                <span className="sm:flex lg:hidden xl:flex sm:h-[90px] xs:h-[100%] lg:h-[85px] -ml-[0.6rem] logo-text text-white-100">
+                  Serkan Karışan
+                </span>
               </div>
-              <ul className="list-none flex flex-col items-start justify-center space-y-6">
-                {navLinks.map((nav) => (
-                  <li
-                    key={nav.id}
-                    className={`${
-                      activeSection === nav.id
-                        ? "text-primary"
-                        : "text-white-100"
-                    } text-[32px] font-bold uppercase cursor-pointer transition-all duration-300`}
-                    onClick={() => {
-                      setToggle(false);
-                      setActiveSection(nav.id);
-                    }}
-                  >
-                    <a href={`#${nav.id}`}>{nav.title}</a>
-                  </li>
-                ))}
-              </ul>
+              {/*Close Button */}
+              <img
+                src={close}
+                alt="close"
+                className="w-[22px] h-[22px] object-contain cursor-pointer"
+                onClick={() => setToggle(!toggle)}
+              />
             </div>
-          ) : (
-            // Menü kapalıyken
+            <ul className="list-none flex flex-col items-start justify-start space-y-6 p-[1rem] h-full">
+              {navLinks.map((nav) => (
+                <li
+                  key={nav.id}
+                  className={`${
+                    activeSection === nav.id ? "text-primary" : "text-white-100"
+                  } text-[32px] font-bold uppercase cursor-pointer transition-all duration-300`}
+                  onClick={() => {
+                    setToggle(false);
+                    setActiveSection(nav.id);
+                  }}
+                >
+                  <a href={`#${nav.id}`}>{nav.title}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          {!toggle && (
             <img
               src={menu}
               alt="menu"
               className="w-[34px] h-[34px] object-contain cursor-pointer"
               onClick={() => setToggle(!toggle)}
             />
+          )}
+          {toggle && (
+            <div
+              className={`fixed top-0 right-0 w-full h-[64px] sm:h-[105px] bg-eerieBlack`}
+            ></div>
           )}
         </div>
       </div>
