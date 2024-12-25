@@ -96,6 +96,7 @@ const experiences = [
   {
     title: "Yazılım Mühendisi",
     company_name: "GNC Proses Otomasyon",
+    icon: "/gnc_logo.png",
     iconBg: "#333333",
     date: "2021 - Halen",
     description:
@@ -104,6 +105,7 @@ const experiences = [
   {
     title: "Uzun Dönem Stajyer",
     company_name: "Halıcı Elektronik",
+    icon: "/halici_logo.png",
     iconBg: "#333333",
     date: "2018 - 2019",
     description:
@@ -112,6 +114,7 @@ const experiences = [
   {
     title: "Stajyer",
     company_name: "Ferah Elektrik",
+    icon: "/ferah_elektrik_logo.png",
     iconBg: "#333333",
     date: "2017",
     description: "Elektrik proje taahhüt ve arıza işlerinde çalıştım.",
@@ -123,7 +126,7 @@ const projects = [
     id: "project-1",
     name: "PRO4 IoT Platformu",
     description:
-      "IoT cihazları yönetimi, veri toplama, analiz ve raporlama özellikleri sunan .NET MVC tabanlı bir platform.",
+      "IoT cihazlarını merkezi bir noktadan yönetmeyi, veri toplama ve analiz etmeyi sağlayan, .NET MVC tabanlı bir web uygulaması. Platform, anlık veri grafikleri,geçmiş analizleri ve özelleştirilebilir widget’lar içeren bir dashboard sunarken;kullanıcılar HMI ekranlarında özel görsellerle dinamik tasarımlar oluşturabilir.Rapor ve Alarm modülleri sayesinde hem izleme hem de aksiyon alma süreçlerini optimize eder.",
     tags: [
       { name: "C#", color: "blue-text-gradient" },
       { name: "Entity Framework", color: "green-text-gradient" },
@@ -136,7 +139,7 @@ const projects = [
     id: "project-2",
     name: "Batchmaster SCADA",
     description:
-      "Beton santrallerinin üretim süreçlerini izlemek ve kontrol etmek için geliştirilen SCADA sistemi.",
+      "Batchmaster, beton santrallerinin üretim süreçlerini izlemek ve yönetmek için geliştirilmiş bir SCADA sistemidir. PLC ile iletişim kurarak, OPC DA ve S7.NET kullanarak santral bileşenlerini kontrol eder. Sistem, silo, bunker, mikser gibi öğeleri animasyonlarla izlemeyi sağlar. Kullanıcılar manuel kontrol butonlarıyla üretim süreçlerini yönetebilir, süreç kayıtları tutabilir ve irsaliye çıktıları alabilir.",
     tags: [
       { name: "S7.NET", color: "blue-text-gradient" },
       { name: "OPC UA", color: "green-text-gradient" },

@@ -126,18 +126,6 @@
   );
 }
 
-/* canvas- styles */
-.canvas-loader {
-  font-size: 10px;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  position: relative;
-  text-indent: -9999em;
-  animation: mulShdSpin 1.1s infinite ease;
-  transform: translateZ(0);
-}
-
 @keyframes mulShdSpin {
   0%,
   100% {
@@ -247,7 +235,7 @@
   border-color: rgb(0 64 67);
   box-shadow: #000000 0px 0px 10px 0px;
 }
-.tech-box:hover { 
+.tech-box:hover {
   box-shadow: #00adb5 0px 0px 10px 0px;
 }
 @keyframes shake {
@@ -272,4 +260,8 @@
 .tech-box img {
   max-width: none !important;
   width: 4rem;
+}
+.profile-hero {
+  scale: 1.5;
+  opacity: 0.8;
 }

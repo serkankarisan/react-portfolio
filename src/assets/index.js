@@ -12,12 +12,12 @@ import ux from "./icons/ux.png";
 import frontend from "./icons/frontend.png";
 import prototyping from "./icons/prototyping.png";
 import github from "./icons/github.png";
-import close from "./icons/close.png";
+import close from "./icons/close.svg";
 import download from "./icons/download.png";
 import downloadHover from "./icons/downloadHover.png";
 import pineapple from "./icons/pineapple.png";
 import pineappleHover from "./icons/pineappleHover.png";
-import menu from "./icons/menu.png";
+import menu from "./icons/menu-right.svg";
 import resume from "./icons/resume.png";
 import send from "./icons/send.png";
 import sendHover from "./icons/sendHover.png";
@@ -50,7 +50,12 @@ import kelhel from "./company/kelhel.png";
 import microverse from "./company/microverse.png";
 
 import batchmaster from "./projects/batchmaster.png";
-import pro4 from "./projects/pro4.jpg";
+import pro4 from "./projects/pro4_no_bg.png";
+
+import resumeLink from "./personal/serkankarisan_full_stack_developer.pdf";
+
+import gmail from "./icons/gmail.svg";
+import outlook from "./icons/outlook.svg";
 
 export {
   bwmap,
@@ -106,4 +111,9 @@ export {
   //
   batchmaster,
   pro4,
+  //
+  resumeLink,
+  //
+  gmail,
+  outlook,
 };
